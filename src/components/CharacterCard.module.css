@@ -1,0 +1,12 @@
+.characterCard{
+    list-style: none;
+    background: var(--bg-card-character);
+
+    width: 350px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #fff;
+}
