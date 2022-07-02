@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react"
 import { CharacterCard } from "./CharacterCard";
 
+import styles from './CharacterList.module.css';
+
 interface Character {
+    id: string;
     name: string,
     status: string,
     species: string,
@@ -21,7 +24,7 @@ export function CharacterList() {
         <section className="character-list">
             <ul>
                 {characters.map(character => {
-                    return <CharacterCard key={character.name} character={character} />
+                    return <CharacterCard key={character.id} character={character} />
                 })}
             </ul>
         </section>

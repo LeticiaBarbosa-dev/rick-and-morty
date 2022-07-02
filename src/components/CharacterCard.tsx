@@ -9,14 +9,14 @@ interface CharacterCardProps {
     }
 }
 
-export function CharacterCard(props: CharacterCardProps) {
+export function CharacterCard({ character}: CharacterCardProps) {
     return (
         <li className={styles.characterCard}>
-            <img src={props.character.image} alt={props.character.name} />
-            <div className="character-data">
-                <h3>Name: {props.character.name}</h3>
-                <p>Status: {props.character.status}</p>
-                <p>Species: {props.character.species}</p>
+            <img className={styles.characterImg} src={character.image} alt={character.name} />
+            <div className={styles.characterInfo}>
+                <h3>Name: {character.name}</h3>
+                <p>Status: {character.status}</p>
+                <p>Species: {character.species}</p>
             </div>
         </li>
     )
