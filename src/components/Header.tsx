@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header className={styles.header}>
       <img src={logoImg} alt="Logo Rick and Morty" />
-      <ul className="">
+      <ul className={styles.listSocialMedia}>
         <li>
           <a href={github_url} target="_blank">
             <img src={githubImg} alt="Logo do Github" />

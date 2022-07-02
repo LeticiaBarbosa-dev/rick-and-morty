@@ -1,5 +1,7 @@
 :root {
     --bg-color: #757373;
+    --bg-header-color: #575757;
+    --text-color: #F4F4F4;
 }
 
 *{
