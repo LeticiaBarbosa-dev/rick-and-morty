@@ -14,9 +14,9 @@ export function CharacterCard({ character}: CharacterCardProps) {
         <li className={styles.characterCard}>
             <img className={styles.characterImg} src={character.image} alt={character.name} />
             <div className={styles.characterInfo}>
-                <h3>Name: {character.name}</h3>
-                <p>Status: {character.status}</p>
-                <p>Species: {character.species}</p>
+                <span><strong>Name:</strong> {character.name}</span>
+                <span><strong>Status:</strong> {character.status}</span>
+                <span><strong>Species:</strong> {character.species}</span>
             </div>
         </li>
     )
