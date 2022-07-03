@@ -20,8 +20,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 2rem;
 }
 
 .characterCard {
-    margin: 1rem;
+    margin: 2rem 2rem 0 0;
 }

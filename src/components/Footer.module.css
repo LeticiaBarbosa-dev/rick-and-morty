@@ -9,6 +9,9 @@
     justify-content: center;
 
     color: var(--text-color);
+    font-size: 1.50rem;
     font-weight: 500;
     line-height: 28px;
+
+    margin-top: 2rem;
 }
